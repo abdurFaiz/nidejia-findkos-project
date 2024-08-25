@@ -1079,3 +1079,12 @@ video {
 body{
   font-family: "Poppins", sans-serif;
 }
+
+.hover\:font-semibold:hover {
+  font-weight: 600;
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 147 87 / var(--tw-text-opacity));
+}
